@@ -1,0 +1,184 @@
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 1500px;
+}
+
+body {
+  background: #10244c;
+  color: white;
+  width: 95%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+section {
+  margin: 5rem 2rem;
+}
+
+
+
+header {
+  background: #10244c;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 95%;
+  max-width: 1500px;
+}
+
+.logo {
+  font-size: 1.25rem;
+  margin: 1rem;
+  text-transform: uppercase;
+}
+  
+/* Section One */
+
+.section-one {
+  margin: 11rem 2rem 0;
+}
+
+.header {
+  font-size: 4.5rem;
+}
+
+.section-one-paragraph {
+  margin: 2rem 0;
+  font-size: 30px;
+  line-height: 50px;
+  width: 70%;
+  max-width: 500px;
+}
+/* section 3 */
+
+.section-three h3 {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 700px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 100px;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+}
+
+/* Section Four */
+
+.flex-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  font-size: large;
+  line-height: 30px;
+}
+
+.section-four p {
+  margin-bottom: 2rem;
+  font-family: 'Happy Monkey', cursive;
+}
+
+.section-four img
+{
+  width: 500px;
+  height: 400px;
+}
+
+.section-four-btn {
+  margin-bottom: 2rem;
+}
+
+/* Section Five */
+
+.section-five-flex-group {
+  flex-direction: row-reverse;
+}
+
+.section-five p {
+  margin-bottom: 2rem;
+  font-family: 'Happy Monkey', cursive;
+}
+.section-five img
+{
+  width: 500px;
+  height: 400px;
+}
+
+/* Section Six */
+
+.section-six p {
+  margin-bottom: 2rem;
+  font-family: 'Happy Monkey', cursive;
+}
+
+.section-six img
+{
+  height: 400px;
+  width: 500px;
+}
+
+
+
+/* Section Ten */
+
+.section-ten h5 {
+  margin: 15rem auto 2rem;
+  width: 80%;
+  max-width: 700px;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Happy Monkey', cursive;
+}
+
+.section-ten-btn {
+  text-align: center;
+  display: flex;  
+  justify-content: center;
+  margin: 0 auto;
+  width: 7.5rem;
+}
+
+
+
+
+.button {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover {
+  background-color: #fff;
+}
+
+.button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
